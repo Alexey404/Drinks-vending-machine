@@ -1,0 +1,20 @@
+.Card {
+  padding: 5px;
+  margin: 5px;
+  width: 120px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.buttonCoin {
+  margin: 5px;
+}
+
+.Cards {
+  display: flex;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.137);
+}
