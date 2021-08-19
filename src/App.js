@@ -16,12 +16,12 @@ function App() {
   const [sellActive, setSellActive] = useState(false)
 
   useEffect(() => {
-    setTotal(drink.map((e) => ({ name: e.name, price: 0, quantity: 0 })))
+    setTotal(drink.map(e => ({ name: e.name, price: 0, quantity: 0 })))
   }, [])
 
   useEffect(() => {
     if (total) {
-      setTotalPrice(total.map((e) => e.price).reduce((a, b) => a + b))
+      setTotalPrice(total.map(e => e.price).reduce((a, b) => a + b))
     }
   }, [total])
 
@@ -32,7 +32,7 @@ function App() {
   }, [totalPrice, coin])
 
   const Sell = () => {
-    total.map((d) => (d.price = 0))
+    total.map(d => (d.price = 0))
     setCoin(coin - totalPrice)
     setTotalPrice(0)
     setSell(!sell)
