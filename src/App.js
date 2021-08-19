@@ -4,7 +4,7 @@ import './App.css'
 import { CardsCoins } from './Components/CardsCoin'
 import { CardsDrink } from './Components/CardsDrink'
 
-function App() {
+const App = () => {
   const [coin, setCoin] = useState(0)
   const [drink, setDrink] = useState([
     { name: 'Кола', price: 10, quantity: 20 },
