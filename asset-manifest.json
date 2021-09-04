@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Drinks-vending-machine/static/css/main.c8228c49.chunk.css",
-    "main.js": "/Drinks-vending-machine/static/js/main.6d8821bb.chunk.js",
-    "main.js.map": "/Drinks-vending-machine/static/js/main.6d8821bb.chunk.js.map",
+    "main.js": "/Drinks-vending-machine/static/js/main.e7f20dae.chunk.js",
+    "main.js.map": "/Drinks-vending-machine/static/js/main.e7f20dae.chunk.js.map",
     "runtime-main.js": "/Drinks-vending-machine/static/js/runtime-main.7a870ca2.js",
     "runtime-main.js.map": "/Drinks-vending-machine/static/js/runtime-main.7a870ca2.js.map",
     "static/js/2.f2ee1aca.chunk.js": "/Drinks-vending-machine/static/js/2.f2ee1aca.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7a870ca2.js",
     "static/js/2.f2ee1aca.chunk.js",
     "static/css/main.c8228c49.chunk.css",
-    "static/js/main.6d8821bb.chunk.js"
+    "static/js/main.e7f20dae.chunk.js"
   ]
 }
