@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Drinks-vending-machine/static/css/main.c8228c49.chunk.css",
+    "main.js": "/Drinks-vending-machine/static/js/main.6d8821bb.chunk.js",
+    "main.js.map": "/Drinks-vending-machine/static/js/main.6d8821bb.chunk.js.map",
+    "runtime-main.js": "/Drinks-vending-machine/static/js/runtime-main.7a870ca2.js",
+    "runtime-main.js.map": "/Drinks-vending-machine/static/js/runtime-main.7a870ca2.js.map",
+    "static/js/2.f2ee1aca.chunk.js": "/Drinks-vending-machine/static/js/2.f2ee1aca.chunk.js",
+    "static/js/2.f2ee1aca.chunk.js.map": "/Drinks-vending-machine/static/js/2.f2ee1aca.chunk.js.map",
+    "static/js/3.1c5efc9d.chunk.js": "/Drinks-vending-machine/static/js/3.1c5efc9d.chunk.js",
+    "static/js/3.1c5efc9d.chunk.js.map": "/Drinks-vending-machine/static/js/3.1c5efc9d.chunk.js.map",
+    "index.html": "/Drinks-vending-machine/index.html",
+    "static/css/main.c8228c49.chunk.css.map": "/Drinks-vending-machine/static/css/main.c8228c49.chunk.css.map",
+    "static/js/2.f2ee1aca.chunk.js.LICENSE.txt": "/Drinks-vending-machine/static/js/2.f2ee1aca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a870ca2.js",
+    "static/js/2.f2ee1aca.chunk.js",
+    "static/css/main.c8228c49.chunk.css",
+    "static/js/main.6d8821bb.chunk.js"
+  ]
+}
