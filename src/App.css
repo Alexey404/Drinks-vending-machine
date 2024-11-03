@@ -1,9 +1,56 @@
-.App {
+.app {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  min-height: 100dvh;
+  background-color: rgba(2, 3, 46, 0.678);
 }
 
-.Container {
-  width: 1000px;
+.title {
+  text-align: center;
+  color: white;
+}
 
+.coins-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.app-header {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.app-content {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-bottom {
+  height: 10%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroll-wrapper {
+  width: 100%; /* Контейнер занимает всю ширину */
+  box-sizing: border-box;
 }
