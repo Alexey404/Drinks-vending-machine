@@ -1,5 +1,5 @@
 import { Button } from "@material-ui/core";
-import "./CardsCoin.css";
+import "./CardsCoin.scss";
 
 export const CardsCoins = ({ setCoin }) => {
   const coin = [1, 2, 5, 10, 20, 50, 100, 200];

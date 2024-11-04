@@ -60,7 +60,7 @@ const Card = ({ e, setTotal, total, sell }) => {
       <div onClick={onClick} className={card}>
         <img src={e.icon} className="counter-icon" />
 
-        <div className={"card--title " + GeneralTextStyles.h3}>{e.name}</div>
+        <div className={GeneralTextStyles.h3 + " card--title"}>{e.name}</div>
         <div className="card--bottom">
           <div className={GeneralTextStyles.bodyL}>
             Цена:{" "}

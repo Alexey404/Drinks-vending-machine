@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import { useEffect, useState } from "react";
-import "./App.css";
+import "./App.scss";
 import { CardsCoins } from "./Components/CardsCoin";
 import { CardsDrink } from "./Components/CardsDrink";
 
@@ -55,21 +55,20 @@ const App = () => {
       <div className="container">
         <div className="app-header">
           <h1 className="title">Торговый автомат</h1>
-          <div className="coins-title">
-            <div>
-              <h3>Вставьте монету</h3>
-              <div className="scroll-wrapper">
-                <CardsCoins setCoin={setCoin} />
-              </div>
+          <div className="coins-wrapper">
+            <h3 className="coins-title">Вставьте монету</h3>
+
+            <h2 className="coins-account">Ваш счёт: {coin} Монет</h2>
+          </div>
+          <div className="scroll-wrapper">
+            <div className="coins">
+              <CardsCoins setCoin={setCoin} />
             </div>
-            <div>
-              <h2>Ваш счёт: {coin} Монет</h2>
-              <Button onClick={() => setCoin(0)}>Получить сдачу</Button>
-            </div>
+            <Button onClick={() => setCoin(0)}>Получить сдачу</Button>
           </div>
         </div>
         <div className="app-content">
-          <h3>Выберите напиток</h3>
+          <h3 className="cards-title">Выберите напиток</h3>
           <CardsDrink
             drinks={DRINKS}
             setTotal={setTotal}
